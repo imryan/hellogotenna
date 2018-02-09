@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9434FE821F30DE2B0054B2EE /* ChatTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434FE811F30DE2B0054B2EE /* ChatTableDataSource.m */; };
+		9434FE8D1F312BF30054B2EE /* FirmwareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434FE8C1F312BF30054B2EE /* FirmwareManager.m */; };
+		943FA6831F33D01B000ECFF3 /* QueueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 943FA6821F33D01B000ECFF3 /* QueueManager.m */; };
+		9450479F1F27D88000E627B3 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 9450479E1F27D88000E627B3 /* Contact.m */; };
+		945047A31F27D8A400E627B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 945047A21F27D8A400E627B3 /* ViewController.m */; };
+		945047A61F27D92F00E627B3 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 945047A51F27D92F00E627B3 /* Message.m */; };
+		945047A91F27DF3E00E627B3 /* ContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 945047A81F27DF3E00E627B3 /* ContactManager.m */; };
+		945047AD1F28DB3B00E627B3 /* MessagingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 945047AC1F28DB3B00E627B3 /* MessagingManager.m */; };
+		945047B31F291DED00E627B3 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 945047B21F291DED00E627B3 /* ChatViewController.m */; };
+		945047B61F29283300E627B3 /* GroupCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 945047B51F29283300E627B3 /* GroupCreateViewController.m */; };
+		946202151F20F61700A63484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 946202141F20F61700A63484 /* main.m */; };
+		946202181F20F61700A63484 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 946202171F20F61700A63484 /* AppDelegate.m */; };
+		9462021E1F20F61700A63484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9462021C1F20F61700A63484 /* Main.storyboard */; };
+		946202201F20F61700A63484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9462021F1F20F61700A63484 /* Assets.xcassets */; };
+		946202231F20F61700A63484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946202211F20F61700A63484 /* LaunchScreen.storyboard */; };
+		94A5B2E31F315BF500BFF9D7 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A5B2E21F315BF500BFF9D7 /* Group.m */; };
+		94ADAEBC1F2A424E00058722 /* GoTennaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94ADAEBA1F2A424B00058722 /* GoTennaSDK.framework */; };
+		94ADAEBD1F2A424E00058722 /* GoTennaSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94ADAEBA1F2A424B00058722 /* GoTennaSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94ADAEBE1F2A424E00058722 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				94ADAEBD1F2A424E00058722 /* GoTennaSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9434FE801F30DE2B0054B2EE /* ChatTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatTableDataSource.h; path = Controller/ChatTableDataSource.h; sourceTree = "<group>"; };
+		9434FE811F30DE2B0054B2EE /* ChatTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatTableDataSource.m; path = Controller/ChatTableDataSource.m; sourceTree = "<group>"; };
+		9434FE8B1F312BF30054B2EE /* FirmwareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirmwareManager.h; path = Manager/FirmwareManager.h; sourceTree = "<group>"; };
+		9434FE8C1F312BF30054B2EE /* FirmwareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirmwareManager.m; path = Manager/FirmwareManager.m; sourceTree = "<group>"; };
+		943FA6811F33D01B000ECFF3 /* QueueManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QueueManager.h; path = Manager/QueueManager.h; sourceTree = "<group>"; };
+		943FA6821F33D01B000ECFF3 /* QueueManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QueueManager.m; path = Manager/QueueManager.m; sourceTree = "<group>"; };
+		9450479D1F27D88000E627B3 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = Model/Contact.h; sourceTree = "<group>"; };
+		9450479E1F27D88000E627B3 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = Model/Contact.m; sourceTree = "<group>"; };
+		945047A11F27D8A400E627B3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
+		945047A21F27D8A400E627B3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
+		945047A41F27D92F00E627B3 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Message.h; path = Model/Message.h; sourceTree = "<group>"; };
+		945047A51F27D92F00E627B3 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Message.m; path = Model/Message.m; sourceTree = "<group>"; };
+		945047A71F27DF3E00E627B3 /* ContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactManager.h; path = Manager/ContactManager.h; sourceTree = "<group>"; };
+		945047A81F27DF3E00E627B3 /* ContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactManager.m; path = Manager/ContactManager.m; sourceTree = "<group>"; };
+		945047AB1F28DB3B00E627B3 /* MessagingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagingManager.h; path = Manager/MessagingManager.h; sourceTree = "<group>"; };
+		945047AC1F28DB3B00E627B3 /* MessagingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagingManager.m; path = Manager/MessagingManager.m; sourceTree = "<group>"; };
+		945047B11F291DED00E627B3 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = Controller/ChatViewController.h; sourceTree = "<group>"; };
+		945047B21F291DED00E627B3 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = Controller/ChatViewController.m; sourceTree = "<group>"; };
+		945047B41F29283300E627B3 /* GroupCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupCreateViewController.h; path = Controller/GroupCreateViewController.h; sourceTree = "<group>"; };
+		945047B51F29283300E627B3 /* GroupCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupCreateViewController.m; path = Controller/GroupCreateViewController.m; sourceTree = "<group>"; };
+		946202101F20F61700A63484 /* HelloGoTenna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGoTenna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		946202141F20F61700A63484 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		946202161F20F61700A63484 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		946202171F20F61700A63484 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9462021D1F20F61700A63484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9462021F1F20F61700A63484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		946202221F20F61700A63484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		946202241F20F61700A63484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A5B2E11F315BF500BFF9D7 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Group.h; path = Model/Group.h; sourceTree = "<group>"; };
+		94A5B2E21F315BF500BFF9D7 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Group.m; path = Model/Group.m; sourceTree = "<group>"; };
+		94ADAEBA1F2A424B00058722 /* GoTennaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoTennaSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9462020D1F20F61700A63484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94ADAEBC1F2A424E00058722 /* GoTennaSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9450479C1F27D85600E627B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				945047A11F27D8A400E627B3 /* ViewController.h */,
+				945047A21F27D8A400E627B3 /* ViewController.m */,
+				9434FE801F30DE2B0054B2EE /* ChatTableDataSource.h */,
+				9434FE811F30DE2B0054B2EE /* ChatTableDataSource.m */,
+				945047B11F291DED00E627B3 /* ChatViewController.h */,
+				945047B21F291DED00E627B3 /* ChatViewController.m */,
+				945047B41F29283300E627B3 /* GroupCreateViewController.h */,
+				945047B51F29283300E627B3 /* GroupCreateViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		945047A01F27D88300E627B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9450479D1F27D88000E627B3 /* Contact.h */,
+				9450479E1F27D88000E627B3 /* Contact.m */,
+				945047A41F27D92F00E627B3 /* Message.h */,
+				945047A51F27D92F00E627B3 /* Message.m */,
+				94A5B2E11F315BF500BFF9D7 /* Group.h */,
+				94A5B2E21F315BF500BFF9D7 /* Group.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		945047AA1F27DF4100E627B3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				945047A71F27DF3E00E627B3 /* ContactManager.h */,
+				945047A81F27DF3E00E627B3 /* ContactManager.m */,
+				945047AB1F28DB3B00E627B3 /* MessagingManager.h */,
+				945047AC1F28DB3B00E627B3 /* MessagingManager.m */,
+				9434FE8B1F312BF30054B2EE /* FirmwareManager.h */,
+				9434FE8C1F312BF30054B2EE /* FirmwareManager.m */,
+				943FA6811F33D01B000ECFF3 /* QueueManager.h */,
+				943FA6821F33D01B000ECFF3 /* QueueManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		946202071F20F61700A63484 = {
+			isa = PBXGroup;
+			children = (
+				946202121F20F61700A63484 /* HelloGoTenna */,
+				946202111F20F61700A63484 /* Products */,
+				9462022E1F20F81400A63484 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		946202111F20F61700A63484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				946202101F20F61700A63484 /* HelloGoTenna.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		946202121F20F61700A63484 /* HelloGoTenna */ = {
+			isa = PBXGroup;
+			children = (
+				946202161F20F61700A63484 /* AppDelegate.h */,
+				946202171F20F61700A63484 /* AppDelegate.m */,
+				945047AA1F27DF4100E627B3 /* Manager */,
+				945047A01F27D88300E627B3 /* Model */,
+				9450479C1F27D85600E627B3 /* Controller */,
+				9462021C1F20F61700A63484 /* Main.storyboard */,
+				9462021F1F20F61700A63484 /* Assets.xcassets */,
+				946202211F20F61700A63484 /* LaunchScreen.storyboard */,
+				946202241F20F61700A63484 /* Info.plist */,
+				946202131F20F61700A63484 /* Supporting Files */,
+			);
+			path = HelloGoTenna;
+			sourceTree = "<group>";
+		};
+		946202131F20F61700A63484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				946202141F20F61700A63484 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9462022E1F20F81400A63484 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94ADAEBA1F2A424B00058722 /* GoTennaSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9462020F1F20F61700A63484 /* HelloGoTenna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946202271F20F61700A63484 /* Build configuration list for PBXNativeTarget "HelloGoTenna" */;
+			buildPhases = (
+				9462020C1F20F61700A63484 /* Sources */,
+				9462020D1F20F61700A63484 /* Frameworks */,
+				9462020E1F20F61700A63484 /* Resources */,
+				94ADAEBE1F2A424E00058722 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloGoTenna;
+			productName = HelloGoTenna;
+			productReference = 946202101F20F61700A63484 /* HelloGoTenna.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		946202081F20F61700A63484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = goTenna;
+				TargetAttributes = {
+					9462020F1F20F61700A63484 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V865U9FFCP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9462020B1F20F61700A63484 /* Build configuration list for PBXProject "HelloGoTenna" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 946202071F20F61700A63484;
+			productRefGroup = 946202111F20F61700A63484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9462020F1F20F61700A63484 /* HelloGoTenna */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9462020E1F20F61700A63484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946202231F20F61700A63484 /* LaunchScreen.storyboard in Resources */,
+				946202201F20F61700A63484 /* Assets.xcassets in Resources */,
+				9462021E1F20F61700A63484 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9462020C1F20F61700A63484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9450479F1F27D88000E627B3 /* Contact.m in Sources */,
+				946202181F20F61700A63484 /* AppDelegate.m in Sources */,
+				945047B61F29283300E627B3 /* GroupCreateViewController.m in Sources */,
+				94A5B2E31F315BF500BFF9D7 /* Group.m in Sources */,
+				9434FE8D1F312BF30054B2EE /* FirmwareManager.m in Sources */,
+				945047A61F27D92F00E627B3 /* Message.m in Sources */,
+				945047A31F27D8A400E627B3 /* ViewController.m in Sources */,
+				945047AD1F28DB3B00E627B3 /* MessagingManager.m in Sources */,
+				945047A91F27DF3E00E627B3 /* ContactManager.m in Sources */,
+				9434FE821F30DE2B0054B2EE /* ChatTableDataSource.m in Sources */,
+				945047B31F291DED00E627B3 /* ChatViewController.m in Sources */,
+				946202151F20F61700A63484 /* main.m in Sources */,
+				943FA6831F33D01B000ECFF3 /* QueueManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9462021C1F20F61700A63484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9462021D1F20F61700A63484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		946202211F20F61700A63484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946202221F20F61700A63484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		946202251F20F61700A63484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		946202261F20F61700A63484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		946202281F20F61700A63484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = V865U9FFCP;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HelloGoTenna/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotenna.HelloGoTenna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		946202291F20F61700A63484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = V865U9FFCP;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = HelloGoTenna/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotenna.HelloGoTenna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9462020B1F20F61700A63484 /* Build configuration list for PBXProject "HelloGoTenna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946202251F20F61700A63484 /* Debug */,
+				946202261F20F61700A63484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946202271F20F61700A63484 /* Build configuration list for PBXNativeTarget "HelloGoTenna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946202281F20F61700A63484 /* Debug */,
+				946202291F20F61700A63484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 946202081F20F61700A63484 /* Project object */;
+}
